@@ -129,7 +129,7 @@ def loop(event=None):
     mixChosen()
     validateMix()
     ct = getct()
-    print(ct)
+    #print(ct)
     if validateMix():
         mixRef = getLatestMix()
         calcul(mixRef, ct)
